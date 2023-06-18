@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+@import "./components/header";
+
+@import "./components/variable";
+
+@import "./components/hero";
+@import "./components/section";
+@import "./components/product";
+@import "./components/contact";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #ffffff;
+
+  &::-webkit-scrollbar-thumb {
+    background: #ee4248;
+    border-radius: 50px;
+  }
+
+  &::-webkit-scrollbar {
+    width: 10px;
+  }
+}

@@ -1,0 +1,55 @@
+.contact__wrapper {
+  padding: 28px 0 24px 0;
+  display: flex;
+  gap: 50px;
+  justify-content: space-between;
+  width: 100%;
+
+  .address {
+    width: 33%;
+    .logo {
+      width: 119px;
+      padding-bottom: 10px;
+    }
+    .p1 {
+      font-weight: 500;
+      font-size: 18px;
+      padding-bottom: 8px;
+    }
+    .para {
+      font-weight: 200;
+      font-size: 18px;
+      line-height: 149.19%;
+    }
+  }
+  .contact {
+    width: 33%;
+
+    .h1 {
+      padding-bottom: 15px;
+      // padding-top: 51px;
+      font-weight: 500;
+      font-size: 24px;
+    }
+    .p {
+      font-weight: 300;
+      font-size: 18px;
+      line-height: 149.19%;
+    }
+  }
+
+  .brands {
+    width: 33%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 25px;
+  }
+}
+
+.footer {
+  text-align: center;
+  background-color: #ee4248;
+  color: white;
+  padding: 22px 0 21px 0;
+}

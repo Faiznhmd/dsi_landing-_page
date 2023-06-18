@@ -1,0 +1,41 @@
+.section__2 {
+  background-color: #f6f6f6;
+
+  .content__2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 54px 0 63px;
+    gap: 82px;
+
+    .content__section {
+      .h1 {
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 133.69%;
+        .most {
+          color: #ee4248;
+        }
+      }
+      .para {
+        padding-top: 24px;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 150%;
+
+        span {
+          color: #ee4248;
+        }
+      }
+      .para_2 {
+        padding-top: 24px;
+        font-weight: 200;
+        font-size: 18px;
+        line-height: 150%;
+        span {
+          color: #ee4248;
+        }
+      }
+    }
+  }
+}

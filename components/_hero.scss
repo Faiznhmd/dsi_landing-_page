@@ -1,0 +1,38 @@
+.content {
+  padding: 110px 0 160px 0;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+
+  // .content__hero {
+  // }
+
+  p {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 134%;
+
+    .info {
+      color: #ee4248;
+    }
+  }
+
+  .content__small {
+    font-weight: 400;
+    font-size: 20px;
+    margin-top: 24px;
+  }
+
+  .hero__button {
+    background-color: #ee4248;
+    color: white;
+    padding: 12px 32px 12px 32px;
+    margin-top: 24px;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.25);
+    border: #ee4248;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 400;
+    font-size: 20px;
+  }
+}
