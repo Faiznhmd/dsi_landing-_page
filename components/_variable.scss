@@ -2,6 +2,11 @@ $color-white: #ffffff;
 $color-black: #000000;
 $gray: rgba(31, 46, 53, 0.8);
 
+// breakpoints
+$breakpoints-large: 992px;
+$breakpoints-medium: 768px;
+$breakpoints-small: 576px;
+
 .container {
   width: min(100% - 32px, 1200px);
   margin-inline: auto;

@@ -1,5 +1,12 @@
+@import "./variable";
+
 .products {
   padding: 96px 0 110px 0;
+
+  @media (max-width: $breakpoints-medium) {
+    padding: 46px 0 60px 0;
+  }
+
   .heading {
     text-align: center;
     font-size: 32px;
@@ -12,9 +19,14 @@
     display: flex;
     justify-content: space-between;
     gap: 53px;
-    .service {
-      padding: 0 157px 0 157px 0;
+    // padding-bottom: 20px;
 
+    @media (max-width: $breakpoints-medium) {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+    .service {
       .h1 {
         color: #ee4248;
         padding-bottom: 15px;

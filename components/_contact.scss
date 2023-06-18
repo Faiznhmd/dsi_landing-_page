@@ -5,8 +5,16 @@
   justify-content: space-between;
   width: 100%;
 
+  @media (max-width: $breakpoints-medium) {
+    flex-wrap: wrap;
+  }
+
   .address {
     width: 33%;
+
+    @media (max-width: $breakpoints-medium) {
+      width: 100%;
+    }
     .logo {
       width: 119px;
       padding-bottom: 10px;
@@ -24,6 +32,10 @@
   }
   .contact {
     width: 33%;
+
+    @media (max-width: $breakpoints-medium) {
+      width: 100%;
+    }
 
     .h1 {
       padding-bottom: 15px;
@@ -44,12 +56,9 @@
     align-items: center;
     flex-wrap: wrap;
     gap: 25px;
-  }
-}
 
-.footer {
-  text-align: center;
-  background-color: #ee4248;
-  color: white;
-  padding: 22px 0 21px 0;
+    @media (max-width: $breakpoints-medium) {
+      width: 100%;
+    }
+  }
 }

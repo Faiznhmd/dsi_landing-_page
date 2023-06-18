@@ -8,6 +8,12 @@
     padding: 54px 0 63px;
     gap: 82px;
 
+    @media (max-width: $breakpoints-large) {
+      flex-direction: column;
+      text-align: center;
+      padding: 0 0 70px 0;
+    }
+
     .content__section {
       .h1 {
         font-weight: 700;
