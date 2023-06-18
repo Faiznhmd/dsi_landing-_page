@@ -14,8 +14,6 @@
     gap: 53px;
     .service {
       padding: 0 157px 0 157px 0;
-      .products__images {
-      }
 
       .h1 {
         color: #ee4248;
@@ -36,6 +34,7 @@
         padding: 8px 16px;
         margin-top: 15px;
         font-weight: 400;
+        cursor: pointer;
 
         border: none;
       }
